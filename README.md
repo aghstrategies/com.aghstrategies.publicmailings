@@ -2,6 +2,10 @@ com.aghstrategies.publicmailings
 ================================
 This extension creates archive list of public mailings in CiviCRM. You will need to enable the "CiviMail: view public CiviMail content" permission. This only pulls completed mailings that have the "Public Pages" set for the visibility.
 
+### Update
+
+This can now be done in core without an extension using Searchkit and Afform. We have created an extension that sets up a basic example here: https://github.com/aghstrategies/mailinglistings we recommend using that extension instead of this one because it is more flexible and stable.
+
 ### Modifiers
 
 You can pass modifiers through the url to filter the list of mailings. These can also be used in combination with one another.
